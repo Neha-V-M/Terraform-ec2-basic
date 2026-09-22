@@ -95,7 +95,3 @@ terraform destroy
   ```bash
   aws ec2 describe-instance-types --filters Name=free-tier-eligible,Values=true --query "InstanceTypes[*].InstanceType" --output text
   ```
-
-## License
-
-MIT (or update as needed)
